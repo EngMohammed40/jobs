@@ -1,0 +1,157 @@
+.rtl{
+    direction: rtl;
+}
+.text-right{
+    text-align: right;
+}
+/*  */
+header{
+    position: relative;
+    background: url('header.jpg');
+    height: 350px;
+    background-size: cover;
+    color: #FFF;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .6;
+}
+header ul li{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.ads img{
+    width: 570px;
+}
+/*  */
+.ads .ad{
+    background: url('ads.png');
+    height: 150px;
+    width: 100%;
+}
+/*  */
+.job-desc-services .card .card-img-top{
+    height: 250px;
+}
+.job-desc-services .card .card-text{
+    overflow-y: scroll;
+    height: 200px;
+    padding: 10px 15px;
+    text-align: justify;
+}
+.job-desc-services h1{
+    background: #09121e;
+    color: #FFF;
+    width: 440px;
+    padding: 10px 10px;
+}
+.job-desc-services .card .card-header{
+    background: #4d4d4d;
+    color: #FFF;
+}
+.job-desc-services .btn , .cv .btn{
+    background: #000000;
+    color: #FFF;
+}
+/*  */
+.cv .cv-row{
+    background: #d8d8d8;
+    border: solid 2px #6c6c6c;
+    padding: 10px;
+}
+.cv img{
+    max-width: 100%;
+}
+.cv h3{
+    background: #4d4d4d;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+.cv .cv-text{
+    overflow-y: scroll;
+    height: 290px;
+    background: #FFF;
+    padding: 10px 25px;
+    border: solid 1px;
+}
+/*  */
+.job-ex h3{
+    background: #0a1927;
+    color: #FFF;
+    width: 300px;
+    padding: 10px;
+}
+.job-ex .slide{
+    background: #DDD;
+    padding: 25px;
+    border: solid 1px;
+} 
+.job-ex .carousel-control-prev{
+    left: -6%;
+    width: 6%;
+}
+.job-ex .carousel-control-next{
+    right: -6%;
+    width: 6%;
+}
+.work-rules h3{
+    background: #0a1927;
+    color: #FFF;
+    width: 390px;
+    padding: 15px;
+}
+.work-rules img{
+    max-width: 100%;
+}
+.work-rules .flags{
+    padding: 10px 30px;
+    border: solid 1px;
+    background: #DDD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

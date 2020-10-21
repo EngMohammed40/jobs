@@ -1,0 +1,259 @@
+/*  */
+.rtl{
+    direction: rtl;
+}
+.text-right{
+    text-align: center;
+}
+body{
+    height: 3000px;
+}
+.btn{
+    border-radius: 0;
+}
+.text-primary{
+    color: #00a3e8 !important;
+}
+.btn-primary{
+    background-color: #00a3e8 !important;
+}
+.ltr{
+    direction: ltr;
+}
+/*  */
+header{
+    position: relative;
+    background: url('header.jpg');
+    height: 350px;
+    background-size: cover;
+    color: #FFF;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .6;
+}
+header img{
+    width: 200px;
+    margin-right: 80px;
+}
+header ul{
+    justify-content: flex-end;
+}
+header ul li{
+    margin-right: 15px;
+}
+header ul li a{
+    color: #FFF;
+}
+header h1{
+    margin-right: 10px;
+}
+.instructions{
+    color: #00a3e8;
+    border: solid 1px #DDD;
+    border-right: solid 9px;
+    padding: 10px;
+}
+/*  */
+.about .head h2{
+    width: 25%;
+    padding: 10px 25px;
+}
+.about img{
+    width: 250px;
+    height: 250px;
+}
+.about .services{
+    height: 150px;
+    overflow-y: scroll;
+    border: solid 1px #CCC;
+}
+.about .services ul{
+    margin-right: -25px;
+}
+.special{
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    padding: 20px;
+}
+.special-col{
+    background: #f4f4f4;
+    padding: 10px;
+}
+.ads img{
+    max-width: 100%;
+}
+/*  */
+.contact ul {
+    justify-content: space-between;
+}
+.contact ul li {
+    font-size: 20px;
+}
+.contact ul li i{
+    margin-left: 10px;
+}
+.contact .btn{
+    border: solid 1px #b2d7de;
+    color: #00a3e8;
+    box-shadow: 1px 1px 1px 1px #b2d7de;  
+    padding: 10px;
+    font-size: 18px; 
+    transition: all .5s ease-in-out;
+}
+.contact .btn i{
+    margin-left: 10px;
+}
+.contact .btn:not(.stars):hover{
+    background: #00a3e8;
+    color: #FFF;
+    box-shadow: 1px 1px 1px 1px #00a3e8;
+}
+.contact .stars{
+    justify-content: center;
+}
+.contact .social{
+    justify-content: center;
+    margin-left: 35px;
+}
+.contact .social li i{
+    position: relative;
+    top: 4px;
+    left: -4px;
+}
+.contact .social li{
+    background-color: #eee;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.contact-container
+{
+    border: solid 1px #ddd;
+    border-radius: 25px;
+    padding: 20px;
+}
+/*  */
+.jobs h2{
+    width: 45%;
+    padding: 15px 20px;
+}
+.jobs h5{
+    padding: 15px;
+}
+.jobs h5 span{
+    background-color: #FFF;
+    color: #000;
+    margin-right: 10px;
+    padding: 5px 15px;
+}
+.jobs .job-content .logo img{
+    width: 150px;
+    height: 150px;
+}
+.jobs .job-content .number , .jobs .job-content .alert-not ,.jobs .job-content .status ,.jobs .job-content .title{
+    color: #96999b;
+    font-weight: bold;
+    font-size: 23px;
+    border: solid 1px #96999b;
+    padding: 5px;
+    box-shadow: 1px 2px 5px 1px #96999b;
+}
+.jobs .job-content .alert-not , .jobs .job-content .status , .jobs .job-content .title{
+    color: #00a3e8;
+}
+.info-container{
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: solid 1px #ccc;
+    padding: 22px 0;
+}
+.info-container i{
+    font-size: 25px;
+    background: #00a3e8;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.job-info h5{
+    margin-left: 75%;
+    color: #00a3e8;
+}
+.action label{
+    color: #00a3e8;
+    font-size: 18px;
+    margin-left: 60%;
+}   
+.action .orange{
+    background-color: #e59e0e;
+    color: #FFF;
+    padding: 15px;
+    font-size: 20px;
+}
+.action i:not(.fa-heart){
+    padding: 10px;
+}
+.action .fa-facebook{
+    background: #29619a;
+    color: #FFF;
+}
+.action .fa-twitter{
+    background-color: #50c9ff;
+    color: #FFF;
+}
+.action .fa-linkedin{
+    background-color: #014f7f;
+    color: #FFF;
+}
+.action .fa-print{
+    background-color: #444444;
+    color: #FFF;
+}
+.action .fa-share-alt{
+    background-color: #444444;
+    color: #FFF;
+}
+
+.action .fa-envelope{
+    background-color: #424242;
+    color: #FFF;
+}
+.spam{
+    font-size: 18px;
+}
+.special_row{
+    border: solid 3px #949494;
+    padding: 15px;
+    background: #FFF;
+}
+.job-content{
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    padding: 30px;
+}
+.jobs .btn-success{
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

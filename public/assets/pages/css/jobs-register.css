@@ -1,0 +1,113 @@
+/*  */
+.rtl{
+    direction: rtl;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+/*  */
+.instructions h1{
+    color: #3f48cc;
+}
+.instructions ul{
+    border: solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+
+/*  */
+.nav{
+    background-color: #f0f0f0;
+}
+nav{
+
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+nav .option label{
+    font-size: 25px;
+    color: #3f48cc;
+}
+
+/*  */
+.company h3{
+    color: #3f48cc;
+}
+.company label{
+    font-size: 21px;
+}
+.label-colored{
+    color: #f11c24 !important;
+}
+
+.company .star{
+    color: #f11c24;
+    font-weight: bold;
+}
+hr{
+    border-top: 5px solid #c3c3c3;
+}
+.company .colors{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-right: 28%;
+}
+.company .colors li{
+    width: 35px;
+    height:35px;
+    background-color: #aabed9;
+
+}
+
+
+
+.policy a{
+    margin: 0 10px;
+}
+button[type="submit"]{
+    background-color: #264e90;
+    border-color: #264e90;
+}
+.company label:last-of-type{
+    color: #407997;
+}
+/*  */
+
+@media (min-width: 1200px) { 
+    nav .option input{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+    .company .hide{
+        position: absolute;
+        top: 40px;
+    }
+    .verify{
+        position: relative;
+        top: 40px;
+    }
+    .cap-verify
+    {
+        position: relative;
+        top: 8px;
+    }
+}
+@media (max-width: 576px) { 
+    nav .option label{
+    font-size: 22px;
+    }
+}

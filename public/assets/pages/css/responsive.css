@@ -1,0 +1,313 @@
+@media all and (min-width: 768px) and (max-width:1200px) {
+    
+/*    Sidebar*/
+    .sidebar{
+        width:19%;
+        display:grid;
+        bottom: 0;
+    }
+    .social-icons i {
+        margin-left: 8px;
+        font-size: 20px;
+    }
+    
+/*    Content*/
+    .content {
+        width: 81%;
+    }
+    
+/*    Top Part*/
+    
+    .top-part button.btn {
+        padding: 5px;
+        font-size: 12px;
+    }
+    
+    .city img {
+        width: 118px;
+        border: 2px solid #333;
+    }
+    
+/*    Main Content*/
+    
+    .left-block1 img {
+        background: #FFF;
+        margin: 5px;
+        padding: 1px;
+    }
+    .right-block1 table.table {
+        font-size: 10px;
+    }
+    .right-block1 .job {
+        padding: 0px;
+        font-size: 11px;
+        margin-left: 6px;
+    }
+    .job p.title {
+        font-size: 12px;
+    }
+    .main-content .left-block3 img, .main-content .left-block4 img, .main-content .left-block5 img {
+        width: 160px;
+        padding: 2px;
+        background: #FFF;
+    }
+    .job-ad .job-ad-content {
+        font-size: 11px;
+    }
+    
+/*    Bottom Part*/
+    .articles {
+        padding-right: 16px;
+        padding-left: 19px;
+    }
+    .article img {
+        width: 100px;
+    }
+    .articles .article {
+        max-width: 100% !important;
+    }
+
+    /* Business Owner Page */
+    section.established {
+        margin-top: 87px;
+    }
+    .established-items a {
+        width: 13%;
+        display: inline-block;
+        padding: 2px;
+        border: 1px solid #CCC;
+        margin-left: 7px;
+    }
+    .business-job-ad {
+        padding: 10px;
+        background: #FFF;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border: 2px solid #333;
+        flex: 0 0 32.333333%;
+        margin-left: 8px;
+        margin-top: 13px;
+    }
+    .business-job-title h4 {
+        font-size: 14px;
+    }
+    .business-job-logo a img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .business-job-title h5 {
+        font-size: 13px;
+    }
+    .business-job-title p {
+        font-size: 13px;
+    }
+    .business-job-info i {
+        display: inline-block;
+        margin-left: 6px;
+        margin-right: 12px;
+    }
+    .filter-item a img {
+        width: 70px;
+        padding: 2px;
+        border-radius: 50%;
+        border: 1px solid #FFF;
+        height: 70px;
+    }
+    .info-item-left img {
+        width: 288px;
+    }
+    .info-item-right .header-content p {
+        color: #17a2b8;
+        font-weight: bold;
+        font-size: 12px;
+        margin-right: 19px;
+        margin-bottom: 6px;
+    }
+    .header-content h5 {
+        color: #fb7e03;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .info-item-right .header-content {
+        text-align: right;
+        padding: 11px 6px;
+        background: #3e3e3ec9;
+        min-height: 197px;
+    }
+    .info-item-right {
+        padding: 0;
+        min-height: 197px;
+    }
+    .business-owner-item p {
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .business-owner-bottom-ad img {
+        height: 150px;
+        width: 880px;
+    }
+
+    /* Job Seeker */
+    .job_seeker_container h4 {
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 12px;
+        width: 30%;
+        text-align: right;
+        border-bottom: 2px solid #17a2b8;
+        padding: 5px;
+        border-right: 5px solid #17a2b8;
+    }
+    .job-seeker {
+        padding: 5px;
+        margin-left: 11px;
+        max-width: 32%;
+    }
+    .seeker-info img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: block;
+        margin: 4px auto;
+    }
+    .job-seeker .stars {
+        margin: 8px auto;
+        text-align: center;
+        font-size: 9px;
+    }
+    .job-seeker .seeker-info .btn.btn-success, .job-seeker .seeker-info .btn.btn-danger {
+        font-size: 11px;
+        display: block;
+        margin: 14px auto;
+        width: 100%;
+    }
+    .seeker-titles h6 {
+        font-weight: bold;
+        margin-bottom: 11px;
+        font-size: 11px;
+    }
+    .seeker-titles .name, .seeker-titles .experience, .seeker-titles .price, .seeker-titles .place {
+        font-weight: bold;
+        margin-bottom: 3px;
+        font-size: 11px;
+    }
+    span.seeker-date {
+        font-size: 10px;
+    }
+    .seeker-btns .seeker-cat {
+        font-weight: bold;
+        font-size: 13px;
+        padding: 2px;
+        margin-bottom: 14px;
+        text-align: center;
+        width: 73%;
+    }
+    .seeker-btns .seeker-share {
+        width: 20px;
+        color: #FFF;
+        display: block;
+        text-align: center;
+        margin: 17px auto;
+        height: 20px;
+        background: #28a745;
+        padding: 1px;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .seeker-sign-up p.caution {
+        background: #333;
+        color: #FFF;
+        padding: 8px;
+        text-align: right;
+        font-size: 11px;
+    }
+    .seeker-adv p {
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .conditions-container ul li {
+        color: #17a2b8;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    /* Recruitment Company */
+     .recruitment-company-ad {
+        padding: 10px;
+        background: #FFF;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border: 2px solid #333;
+        flex: 0 0 32.333333%;
+        margin-left: 8px;
+        margin-top: 13px;
+    }
+    .recruitment-company-title h4 {
+        font-size: 14px;
+    }
+    .recruitment-company-logo a img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .recruitment-company-title h5 {
+        font-size: 13px;
+    }
+    .recruitment-company-title p {
+        font-size: 13px;
+    }
+    .recruitment-company-info i {
+        display: inline-block;
+        margin-left: 6px;
+        margin-right: 12px;
+    }
+    .filter-item a img {
+        width: 70px;
+        padding: 2px;
+        border-radius: 50%;
+        border: 1px solid #FFF;
+        height: 70px;
+    }
+    .info-item-left img {
+        width: 288px;
+    }
+    .info-item-right .header-content p {
+        color: #17a2b8;
+        font-weight: bold;
+        font-size: 12px;
+        margin-right: 19px;
+        margin-bottom: 6px;
+    }
+    .header-content h5 {
+        color: #fb7e03;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .info-item-right .header-content {
+        text-align: right;
+        padding: 11px 6px;
+        background: #3e3e3ec9;
+        min-height: 197px;
+    }
+    .info-item-right {
+        padding: 0;
+        min-height: 197px;
+    }
+    .business-owner-item p {
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .business-owner-bottom-ad img {
+        height: 150px;
+        width: 880px;
+    }
+    .recruitment_company_container .info-item-left img {
+        width: 260px;
+    }
+    .business-owner-bottom-ad img {
+        height: 150px;
+        width: 99%;
+    }
+
+}

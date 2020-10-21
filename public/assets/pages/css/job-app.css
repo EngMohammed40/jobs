@@ -1,0 +1,135 @@
+.rtl{
+      direction: rtl;
+}
+.text-right{
+    text-align: right;
+}
+/*  */
+header{
+    position: relative;
+    background: url('header.jpg');
+    height: 350px;
+    background-size: cover;
+    color: #FFF;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .6;
+}
+header ul li{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+/*  */
+.ads .ad{
+    background: url('ads.png');
+    height: 150px;
+    width: 100%;
+}
+/*  */
+.application .job-name{
+    color: red;
+}
+.application .custom-form-control{
+    padding: 22px;
+    padding-bottom: 28px; 
+}
+.application ::placeholder{
+   direction: rtl;
+}
+.application textarea{
+    height: 200px;
+}
+.extensions {
+    color: #797979
+}
+
+.extensions .max {
+    color: red;
+}
+.orange{
+    background: #e9980b;
+    color: #FFF;
+}
+.blue{
+    background:#7092bf;
+    color: #FFF;
+}
+.application h3{
+    background:#eaeeef;
+    padding: 15px;
+    margin: auto;
+    width: 74%;
+    margin-right: 0px;
+}
+/*  */
+.share ul{
+    justify-content: space-evenly;
+    /* color: black; */
+    position: relative;
+    right: 14%;
+}
+.share ul li:not(.share_item){
+    background: #DDD;
+    padding: 10px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+.share .share_item{
+    padding-top: 12px;
+    padding-right: 17px;
+}
+.share ul li i{
+    position: relative;
+    left: 5px;
+}
+.jobs .row:not(.not_color){
+    background:#f3f3f3;
+    padding:25px;
+    border: solid 1px #c3c3c3;
+}
+.jobs img{
+    width: 150px;
+}
+.jobs .data{
+    margin-right: 40px;
+}
+.jobs .data ul li{
+    margin-bottom: 10px;
+}
+.jobs .data ul li i{
+    margin-left: 10px;
+}
+.jobs .data h3{
+    margin-right: 36px;
+}
+.jobs .job-type{
+    color: #db3535;
+    font-weight: bold;
+}
+.jobs .job-country{
+    color: #36b7ee;
+    font-weight: bold;
+}
+.action span{
+    margin-right: 15px;
+}
+.action span i{
+    margin-left: 5px;
+}
+.specail{
+    position: relative;
+    left: 10%;
+}
+.details{
+    margin-right: 40px;
+}
+.image{
+    margin-top: 25px;
+}

@@ -1,0 +1,151 @@
+/*  */
+.rtl{
+    direction: rtl;
+}
+.text-right{
+    text-align: right;
+}
+/*  */
+.header{
+    position: relative;
+    height: 350px;
+    /*background: url(header.jpg);*/
+    background-position: center;
+    background-size: cover;
+}
+
+.header-content{
+   
+    width: 100%;
+    color: #FFF;
+}
+.header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .6;
+}
+.header .search{
+    background-color: #3f48cc;
+    padding: 15px 0;
+}
+  /*  */
+.training-centers{
+    background-color: #e2e2e2;
+}
+.training-centers .heading p{
+    width: 83%;
+    margin: auto;
+}
+.training-centers .heading h1{
+    color: #3f48cc;
+}
+.training-centers .card{
+    border-color: #3f83f2;
+}
+.training-centers  a  {
+    background-color: #1f3a88;
+    color: #FFF;
+}
+.training-centers .card .card-title , .training-centers .card .card-text{
+    color: #1f3a88;
+}
+/*  */
+.features{
+    background-color: #e2e2e2;
+}
+.features img{
+    width: 80px;
+    position: relative;
+    top: 5px;
+}
+.features .icon{
+    border: solid 1px #5179b6;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+.features p{
+    color: #3f48cc;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*  */
+.special-courses{
+    background-color: #3f48cc;
+    color: #FFF;
+}
+.special-courses .courses{
+    background: #FFF;
+    padding: 15px;
+}
+.special-courses .courses p{
+    color: #000;
+    padding-top: 10px;
+}
+.special-courses .courses .icon{
+    width: 75px;
+    height: 75px;
+    border: solid 1px #5179b6;
+    border-radius: 50%;
+    margin: auto;
+    padding: 45px;
+}
+.special-courses .courses .icon img
+{
+    position: relative;
+    right: 32px;
+    bottom: 30px;
+}
+/*  */
+.register .content{
+    position: relative;
+}
+.register .content .text{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: #ef775e;
+}
+.register .content .text ul li
+{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.register .content .text a{
+    background-color: #3f48cc;
+    color: #FFF;
+    font-size: 35px;
+}
+/*  */
+footer{
+    background-color: #c3c3c3;
+    color: #3f5fc8;
+}
+footer .row .col a{
+    background-color: #3f48cc;
+    color: #FFF;
+    font-size: 25px;
+    margin:15px 0
+}
+@media (max-width: 768px) {
+    .card{
+        max-width: 55%;
+        margin: auto;
+    }
+    .features p{
+        margin-left: 30%;
+    }
+}
+
+
+
+
+
+
