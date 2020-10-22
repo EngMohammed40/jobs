@@ -78,7 +78,7 @@
                     </li>
                 </ul>
             </li>
-            
+
             <li class=" nav-item {{str_contains(url()->current(), '/admin/home_admin') ? 'active' : '' }}">
                 <a href="{{route('admin.home_admin.index')}}">
                     <i class="feather icon-home"></i>
@@ -95,10 +95,10 @@
                             </span>
                         </a>
                     </li>
-                 
+
                 </ul>
             </li>
-            
+
             <li class=" nav-item {{str_contains(url()->current(), '/admin/corporations') ? 'active' : '' }}">
                 <a href="{{route('admin.corporations_admin.index')}}">
                     <i class="feather icon-home"></i>
@@ -127,7 +127,7 @@
                         <a href="{{route('admin.corporations_features.index')}}">
                             <i class="feather icon-circle"></i>
                             <span class="menu-item" data-i18n="عرض الوظائف">
-                                 مزايا اصحاب العمل 
+                                 مزايا اصحاب العمل
                             </span>
                         </a>
                     </li>
@@ -135,13 +135,13 @@
                         <a href="{{route('admin.corporations_rules.index')}}">
                             <i class="feather icon-circle"></i>
                             <span class="menu-item" data-i18n="عرض الوظائف">
-                                   شروط التسجيل 
+                                   شروط التسجيل
                             </span>
                         </a>
                     </li>
                 </ul>
             </li>
-            
+
                     <li class=" nav-item {{str_contains(url()->current(), '/admin/companies') ? 'active' : '' }}">
                 <a href="{{route('admin.companies.index')}}">
                     <i class="feather icon-home"></i>
@@ -170,7 +170,7 @@
                         <a href="{{route('admin.companies_feature.index')}}">
                             <i class="feather icon-circle"></i>
                             <span class="menu-item" data-i18n="عرض الوظائف">
-                                مميزات اصحاب الشركات 
+                                مميزات اصحاب الشركات
                             </span>
                         </a>
                     </li>
@@ -178,13 +178,13 @@
                         <a href="{{route('admin.companies_rules.index')}}">
                             <i class="feather icon-circle"></i>
                             <span class="menu-item" data-i18n="عرض الوظائف">
-                                  شروط التسجيل 
+                                  شروط التسجيل
                             </span>
                         </a>
                     </li>
                 </ul>
             </li>
-            
+
             <li class=" nav-item {{str_contains(url()->current(), '/admin/companies') ? 'active' : '' }}">
                 <a href="{{route('admin.companies.index')}}">
                     <i class="feather icon-home"></i>
@@ -197,7 +197,7 @@
                         <a href="{{route('admin.companies.index')}}">
                             <i class="feather icon-circle"></i>
                             <span class="menu-item" data-i18n="عرض الوظائف">
-                                عرض وظائف الافراد 
+                                عرض وظائف الافراد
                             </span>
                         </a>
                     </li>
@@ -211,7 +211,7 @@
                     </li>
                 </ul>
             </li>
-            
+
             <li class=" nav-item {{str_contains(url()->current(), '/admin/centers') ? 'active' : '' }}">
                 <a href="{{route('admin.companies.index')}}">
                     <i class="feather icon-home"></i>
@@ -230,7 +230,7 @@
                     </li>
                 </ul>
             </li>
-            
+
             <li class=" nav-item {{str_contains(url()->current(), '/admin/jobs') ? 'active' : '' }}">
                 <a href="{{route('admin.jobs.index')}}">
                     <i class="feather icon-home"></i>
@@ -252,6 +252,50 @@
                             <i class="feather icon-circle"></i>
                             <span class="menu-item" data-i18n="إضافة وظيفة">
                                 إضافة وظيفة
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class=" nav-item {{str_contains(url()->current(), '/other-websites-free') ? 'active' : '' }}">
+                <a href="{{route('admin.jobs.index')}}">
+                    <i class="feather icon-home"></i>
+                    <span class="menu-title">
+                        مواقع ووظائف أخري
+                    </span>
+                </a>
+                <ul class="menu-content">
+                    <li>
+                        <a href="{{route('admin.other-websites-upper-banner.index')}}">
+                            <i class="feather icon-circle"></i>
+                            <span class="menu-item" data-i18n="عرض الوظائف">
+                                البنر العلوي
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{route('admin.other-websites-free.index')}}">
+                            <i class="feather icon-circle"></i>
+                            <span class="menu-item" data-i18n="إضافة وظيفة">
+                                المواقع المجانية
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{route('admin.other-websites-paid.index')}}">
+                            <i class="feather icon-circle"></i>
+                            <span class="menu-item" data-i18n="إضافة وظيفة">
+                                المواقع المدفوعة
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{route('admin.other-websites-lower-banner.index')}}">
+                            <i class="feather icon-circle"></i>
+                            <span class="menu-item" data-i18n="إضافة وظيفة">
+                                البنر السفلي
                             </span>
                         </a>
                     </li>
@@ -346,10 +390,10 @@
                     </span>
                 </a>
             </li>
-            
+
             <li class=" nav-item {{str_contains(url()->current(), '/admin/expertises') ? 'active' : ''}}"><a href="{{route('admin.expertises.index')}}"><i class="feather icon-user"></i><span class="menu-title">التخصصات</span></a>
                 </li>
-                
+
             <li class=" nav-item {{str_contains(url()->current(), '/admin/pages') ? 'active' : ''}}">
                 <a href="{{route('admin.pages.index')}}">
                     <i class="feather icon-clipboard"></i>

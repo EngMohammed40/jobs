@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9fa20b5d-c902-482d-ab99-841c2e0eeb95" name="saudi" url="http://185.27.132.35 ">
+        <fileTransfer host="185.27.132.35 " port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="38862c23-b827-442e-bbe1-9aa2c4d50bc3" name="archive" url="http://185.27.132.35">
+        <fileTransfer host="185.27.132.35" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

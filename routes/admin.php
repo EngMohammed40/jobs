@@ -189,60 +189,60 @@ Route::group( ['middleware' => ['auth:admin']], function () {
      * ****** End WebsiteDetailsController ********
      * ********************************************
      */
-     
-     
-     
-     
-     
+
+
+
+
+
         /**
      * ********************************************
      * ****** Start ExpertisesController ******
      * ********************************************
-     */    
+     */
     Route::resource('expertises','Expertises\ExpertisesController');
       /**
      * ********************************************
      * ****** End ExpertisesController ********
      * ********************************************
      */
-     
+
         /**
      * ********************************************
      * ****** Start RegionsController ********
      * ********************************************
-     */ 
-    Route::resource('regions','Regions\RegionsController');  
+     */
+    Route::resource('regions','Regions\RegionsController');
           /**
      * ********************************************
      * ****** End RegionsController ********
      * ********************************************
-     */ 
-     
+     */
+
              /**
      * ********************************************
      * ****** Start JobsController ********
      * ********************************************
-     */ 
-     
-     Route::resource('jobs','Jobs\JobsController'); 
-     
+     */
+
+     Route::resource('jobs','Jobs\JobsController');
+
              /**
      * ********************************************
      * ****** End JobsController ********
      * ********************************************
-     */ 
-     
+     */
+
                   /**
      * ********************************************
      * ****** Start CompaniesController ********
      * ********************************************
-     */ 
-     
-     Route::resource('companies','Companies\CompaniesController'); 
-     
+     */
+
+     Route::resource('companies','Companies\CompaniesController');
+
         // Start Sections
-        Route::resource('companies_banner','Companies\BannersController'); 
-        Route::resource('companies_feature','Companies\FeaturesController'); 
+        Route::resource('companies_banner','Companies\BannersController');
+        Route::resource('companies_feature','Companies\FeaturesController');
         Route::post('get_feature_data','Companies\FeaturesController@getFeatureData')->name('getFeatureData');
         Route::resource('companies_rules','Companies\RulesController');
         Route::put('getRuleImageCompanies','Companies\RulesController@getImage')->name('getRuleImageCompanies');
@@ -250,63 +250,81 @@ Route::group( ['middleware' => ['auth:admin']], function () {
      * ********************************************
      * ****** End CompaniesController ********
      * ********************************************
-     */ 
-     
+     */
+
                        /**
      * ********************************************
      * ****** Start CorporationsController ********
      * ********************************************
-     */ 
-     
-     Route::resource('corporations_admin','Corporations\CorporationsController'); 
-     
+     */
+
+     Route::resource('corporations_admin','Corporations\CorporationsController');
+
     //   Start Sections
     Route::resource('corporations_banner','Corporations\BannersController');
     Route::resource('corporations_features','Corporations\FeaturesController');
-    Route::resource('corporations_rules','Corporations\RulesController'); 
+    Route::resource('corporations_rules','Corporations\RulesController');
     Route::put('getImage','Corporations\BannersController@getImage')->name('getImage');
     Route::put('getFeatureImage','Corporations\FeaturesController@getImage')->name('getFeatureImage');
         Route::put('getRuleImage','Corporations\RulesController@getImage')->name('getRuleImage');
-    
+
              /**
      * ********************************************
      * ****** End CorporationsController ********
      * ********************************************
-     */ 
-     
+     */
+
                                  /**
      * ********************************************
      * ****** Start JobSeekerController ********
      * ********************************************
-     */ 
-     
-     Route::resource('job_seeker_admin','JobSeekers\JobSeekerController'); 
-     
+     */
+
+     Route::resource('job_seeker_admin','JobSeekers\JobSeekerController');
+
     //  start sections
     Route::resource('jobSeekerBanner','JobSeekers\BannersController');
              /**
      * ********************************************
      * ****** End HomeController ********
      * ********************************************
-     */ 
-     
+     */
+
                             /**
      * ********************************************
      * ****** Start HomeController ********
      * ********************************************
-     */ 
-     
-     Route::resource('home_admin','Home\HomeController'); 
+     */
+
+     Route::resource('home_admin','Home\HomeController');
         //Start Sections
         Route::post('get_banner_data','Home\HomeController@getBannerData')->name('getBannerData');
              /**
      * ********************************************
      * ****** End HomeController ********
      * ********************************************
-     */ 
+     */
 
 
-     
+
+    /**
+     * ********************************************
+     * ****** Start OtherWebsites ********
+     * ********************************************
+     */
+
+    Route::resource('other-websites-upper-banner','OtherWebsites\UpperBannerController');
+    Route::resource('other-websites-lower-banner','OtherWebsites\LowerBannerController');
+    Route::resource('other-websites-free','OtherWebsites\FreeWebsitesController');
+    Route::resource('other-websites-paid','OtherWebsites\PaidWebsitesController');
+
+    /**
+     * ********************************************
+     * ****** End OtherWebsites ********
+     * ********************************************
+     */
+
+
 });
 
 

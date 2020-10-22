@@ -21,12 +21,13 @@ use App\Models\Home_Page;
 class HomeController extends controller
 {
     public function index(){
-        $country_code =  Location::get('154.237.204.193')->countryCode;
+//        $country_code =  Location::get('154.237.204.193')->countryCode;
+        $country_code = 'EG';
         $country_count =Country::where('location_code','=',$country_code)->count();
         if($country_count == 0){
            $current_country = Country::where('location_code','=','EG')->first();
         }else{
-            $current_country = Country::where('location_code','=',$country_code)->first(); 
+            $current_country = Country::where('location_code','=',$country_code)->first();
         }
         $articles = Article::all();
         $expertises = Expertise::all();
@@ -50,6 +51,6 @@ class HomeController extends controller
             'banners' => $banners
         ]);
     }
-    
+
 
 }
