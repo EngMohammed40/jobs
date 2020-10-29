@@ -240,6 +240,22 @@
                 </a>
                 <ul class="menu-content">
                     <li>
+                        <a href="{{route('admin.jobs-categories.index')}}">
+                            <i class="feather icon-circle"></i>
+                            <span class="menu-item" data-i18n="عرض الوظائف">
+                                فئات الوظائف
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{route('admin.jobs-publishers.index')}}">
+                            <i class="feather icon-circle"></i>
+                            <span class="menu-item" data-i18n="عرض الوظائف">
+                                ناشرو الوظائف
+                            </span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="{{route('admin.jobs.index')}}">
                             <i class="feather icon-circle"></i>
                             <span class="menu-item" data-i18n="عرض الوظائف">

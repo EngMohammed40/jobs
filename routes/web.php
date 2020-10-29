@@ -116,10 +116,19 @@ Route::get('/job-application',function(){
 });
 
 // *** Other Websites *** //
-Route::get('other-websites','Front\OtherWebsites\OtherWebsitesController@index');
+Route::get('other-websites','Front\OtherWebsites\OtherWebsitesController@index')->name('other-websites.index');
 
+// *** Usage List *** //
+Route::get('usage-list','Front\UsageList\UsageListController@index')->name('usage-list.index');
 
+// *** Mail List *** //
+Route::get('mail-list','Front\MailList\MailListController@index')->name('mail-list.index');
 
+// *** Saudi Jobs *** //
+Route::get('saudi-jobs','Front\SaudiJobs\SaudiJobsController@index')->name('saudi-jobs.index');
+
+// *** Users Area *** //
+Route::get('users-area','Front\UserArea\UserAreaController@index')->name('users-area.index');
 
 
 

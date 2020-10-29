@@ -232,6 +232,35 @@ Route::group( ['middleware' => ['auth:admin']], function () {
      * ********************************************
      */
 
+    /**
+     * ********************************************
+     * ****** Start JobsCategoriesController ********
+     * ********************************************
+     */
+
+    Route::resource('jobs-categories','JobsCategories\JobsCategoriesController');
+
+    /**
+     * ********************************************
+     * ****** End JobsCategoriesController ********
+     * ********************************************
+     */
+
+
+    /**
+     * ********************************************
+     * ****** Start PublishersController ********
+     * ********************************************
+     */
+
+    Route::resource('jobs-publishers','Publishers\PublishersController');
+
+    /**
+     * ********************************************
+     * ****** End PublishersController ********
+     * ********************************************
+     */
+
                   /**
      * ********************************************
      * ****** Start CompaniesController ********

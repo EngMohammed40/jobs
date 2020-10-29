@@ -6,10 +6,8 @@
             color:#fff !important;
         }
         .banner{
-            background: url("{{asset('test.jpg')}}");
+            background: #1f96aa;
             height: 300px;
-            background-size: cover;
-            background-position: center;
             color: #fff;
 
         }
@@ -24,58 +22,82 @@
             font-size: 25px;
             color: #fff;
         }
-        .icons{
-            font-size: 30px;
+        .mail{
+            font-size: 25px;
         }
-        .item{
-            background: #094a8e;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
+        .borderaize{
+            border-bottom: solid 1px #1f96aa;
+            width: 25%;
+            padding-bottom: 15px;
+        }
+        .mails{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 60%;
+            padding-top: 10px;
         }
     </style>
 @endsection
 
 @section('content')
     @include('user.includes.pages.home.sidebar')
-    <div class="banner">
-        <div class="content text-right no-back">
-            <div class="float-right pt-5 pr-4">
-                <h1>قائمة الاستخدام</h1>
+    <div class="banner pt-5">
+        <div class="content text-center no-back">
+            <div class="pt-5 pr-4">
+                <h1 class="d-inline-block">القائمة البريدية</h1>
+                <i class="far fa-envelope-open ml-4" style="font-size: 30px"></i>
             </div>
-            <div class="float-left icons pt-5 pl-4">
-                <i class="fab fa-facebook-f mr-2"></i>
-                <i class="fab fa-twitter mr-2"></i>
-                <i class="fab fa-instagram mr-2"></i>
-                <i class="fab fa-youtube mr-2"></i>
-                <span>تواصل معنا</span>
-            </div>
+
         </div>
     </div>
     <div class="content">
         <div class="container">
             <div class="row pt-4">
-                <div class="col-md-4 offset-md-8">
-                    <div class="item">
-                        <h2>الاحصائات</h2>
-                    </div>
+                <div class="col text-right">
+                    <h2>اشترك بالقائمة البريدية</h2>
                 </div>
             </div>
             <div class="row pt-4">
-                <div class="col-md-4 offset-md-8">
-                    <div class="item">
-                        <h2>كيفية الاستخدام</h2>
-                    </div>
+                <div class="col-md-12 text-center">
+                    <h3 class="borderaize m-auto">اختر أحد الخيارات التالية</h3>
                 </div>
-            </div>
-            <div class="row pt-4">
-                <div class="col-md-4 offset-md-8">
-                    <div class="item">
-                        <h2>الاهداف</h2>
-                    </div>
-                </div>
-            </div>
 
+
+            </div>
+            <div class="mails">
+                <div class="mail">
+                    <label class="mr-5" for="jobs">أحدث الوظائف</label>
+                    <input type="checkbox" id="jobs">
+                </div>
+                <div class="mail">
+                    <label class="mr-5" for="loops">أحدث الدورات</label>
+                    <input type="checkbox" id="loops">
+                </div>
+                <div class="mail">
+                    <label class="mr-5" for="articles">أحدث المقالات</label>
+                    <input type="checkbox" id="articles">
+                </div>
+                <div class="mail">
+                    <label class="mr-5" for="companies">اعلاانات شركات التوظيف</label>
+                    <input type="checkbox" id="companies">
+                </div>
+                <div class="mail">
+                    <label class="mr-5" for="owner">اعلانات اصحاب العمل</label>
+                    <input type="checkbox" id="owner">
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col text-center">
+                    <label>عزيزي المستخدم أدخل البريد الالكتروني </label>
+                    <input type="text" class="form-control w-50 m-auto" style="border-color: #1f96aa;color: #1f96aa;">
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col text-center">
+                    <button class="btn w-50" style="background: #1f96aa;color: #fff;">اشترك</button>
+                </div>
+            </div>
         </div>
     </div>
 
